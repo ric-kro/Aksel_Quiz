@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Mandagsquiz</title>
+ <link href="style.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ <script src="main.js"></script>
+
+</head>
+
+
+<body>
+
+    <h1>Mandagsquiz!</h1>
+
+    <form id="quiz" name="quiz">
+
+
+    <p>Hvilken planet er nærmest solen?</p>
+    <input id="textbox" type="text" name="question1">
+
+    <p class="questions">Når endte den kalde krigen?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "1989"> 1989<br>
+    <input type = "radio" id = "mc" name = "question2" value = "1985"> 1985<br>
+    <input type = "radio" id = "mc" name = "question2" value = "1990"> 1990<br>
+
+    <p class="questions">Hva er hovedstaten i Spania?</p>
+    <input type = "radio" id = "mc" name = "question3" value = "Madrid"> Madrid<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Malaga"> Malaga<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Barcelona"> Barcelona<br>
+
+    <input id="button" type="button" value="Skjekk svar" onclick="check();">
+
+
+    </form>
+    
+    <div id = "after_submit">
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+
+</body>
+</html>

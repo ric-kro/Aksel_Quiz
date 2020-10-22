@@ -1,0 +1,31 @@
+
+
+body {
+    font-family: 'lato', sans-serif;
+}
+    
+
+#after_submit {
+    visibility: hidden;
+}
+
+#quiz {
+	margin-left: 10px;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+
+}
+
+#button:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+}
+
+#mc {
+	display: inline;
+} 
